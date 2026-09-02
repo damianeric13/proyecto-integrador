@@ -42,3 +42,4 @@ def guardar_json():
     with open("datos/observaciones.json", "w") as observaciones:
         json.dump(datos_json, observaciones, indent=2)
 guardar_json()
+##damian
